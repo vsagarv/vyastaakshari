@@ -20,7 +20,7 @@ if len(sys.argv) < 3:
     exit(-1)
 
 inp_f = sys.argv[1]
-maxlen = sys.argv[2]
+maxlen = int(sys.argv[2])
 
 f = open(inp_f, "r", encoding="utf-8")
 lines = f.readlines()
